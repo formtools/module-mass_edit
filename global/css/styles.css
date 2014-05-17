@@ -1,0 +1,147 @@
+html { overflow: -moz-scrollbars-vertical; }
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+body {
+  padding: 20px;
+}
+body, table, td, div, span, div, p, textarea {
+  font: 11px Verdana, sans-serif;
+  line-height: 20px;
+  color: #333333;
+}
+input, select, option {
+  font: 11px Verdana, sans-serif;
+  color: #333333;
+}
+#container {
+	width: 950px;
+	text-align:left;
+	margin: 0 auto;
+}
+#header {
+  height: 72px;
+  position: relative;
+  text-align: center;
+  width: 950px;
+}
+#content {
+	padding: 18px;
+	padding-top: 24px;
+}
+a:link, a:visited {
+	color: #008800;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+a.no_border:link, a.no_border:visited { border-bottom: none; outline: none; }
+.clear { clear: both; }
+
+img { border: none; }
+form { margin: 0px; }
+
+.rsvErrorField { background-color: #990000; color: #ffffcc; }
+
+
+/*-------------- page titles ---------------*/
+.title {
+	font-family: arial;
+	letter-spacing: 4px;
+	font-size: 8pt;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 5px;
+}
+.title a:link, .title a:visited { text-decoration: none; }
+.title a:hover { border-bottom: 1px solid #336699; }
+
+.subtitle {
+	font-size: 8pt;
+	color: #4b6c4e;
+	letter-spacing: 1px;
+}
+
+.underline {
+	border-bottom: 1px solid #cccccc;
+}
+
+.heading {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.large_text { font-size: 12pt; }
+
+
+/*-------------- list tables ---------------*/
+.list_table, .submissions_table {
+	border: 1px solid #dddddd;
+	width: 100%;
+}
+.list_table th, .submissions_table th {
+  background-color: #666666;
+	color: white;
+	height: 18px;
+	text-align: center;
+	font-weight: normal;
+}
+.list_table th a:link, .list_table th a:visited, .submissions_table th a:link, .submissions_table th a:visited {
+	color: white;
+	text-decoration: none;
+}
+.list_table th a:hover, .submissions_table th a:hover {
+	text-decoration: underline;
+}
+.list_table th.del, .submissions_table th.del {
+	text-align: center;
+}
+.list_table th.edit, .submissions_table th.edit {
+	text-align: center;
+}
+.list_table tr {
+	background-color: #f2f2f2;
+	height: 20px;
+}
+
+/*----------------- UI messages ------------------*/
+#ft_message { }
+#ft_message_inner { }
+.notify {	border: 1px solid #0058db; background-color: #f2f8ff; }
+.notify div { color: #0058db; }
+.error { border: 1px solid #cc0000; background-color: #ffeded; }
+.error div { color: #aa0000; }
+.errorField { background-color: #cc0000; color: white; }
+.box {
+	border: 1px solid #666666;
+	background-color: #ffffee;
+	color: #333333;
+	padding: 5px;
+}
+.grey_box {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+.blue_box {
+  background-color: #CFECFF;
+  padding: 5px;
+  border: 1px solid #336699;
+}
+.light_blue_box {
+  background-color: green;
+  padding: 5px;
+  border: 1px solid #336699;
+}
+
+div#list_nav { line-height: 19px; margin-top: 2px; }
+div#list_nav span { font-size: 11pt; }
+#list_nav a:visited, #list_nav a:link { text-decoration: none }
+#list_nav a:hover { text-decoration: underline; color: orange; }
+#list_current_page { border: 1px solid #336699; background-color: #E5F3FE; font-weight: bold; padding: 2px; }
